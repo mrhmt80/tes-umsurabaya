@@ -1,0 +1,178 @@
+/*--------------------------------------------------
+Theme Name: TestWP
+Theme URI: -
+Author: fariedrahmat
+Author URI: -
+Description: TestWP: WP Test UM Surabaya
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, custom, sidebar
+Text Domain: TestWP
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+.featurette
+	{
+		margin-bottom:5px;	
+	}
+.featurette-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/*--------------------------------------------Navbar Custom---------------------------------------*/
+.navbar-custom {
+    background-color:#F30;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  	color:#ffffff;
+}
+.dropdown-item a:active {
+  	color:#ffffff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    color: #9c3;
+}
+
+/*--------------------------------------------Comments---------------------------------------*/
+.comments
+	{
+		border-top:1px #ccc solid;
+		padding:10px;
+		margin-top:10px;
+		margin-bottom:20px;
+	}	
+.comments li
+	{
+		list-style:none;	
+	}	
+.comments h3, .comments h2
+	{
+		color:#930;
+		padding:5px;
+	}	
+.comment-body
+	{
+		border:1px #ccc dashed;
+		margin-bottom:10px;
+		padding:20px 10px;	
+	}	
+.comment-meta
+	{
+		color:#666;
+		pading:10px;
+	}	
+.comment-meta a
+	{
+		color:#666;	
+	}	
+.comment-meta img
+	{
+		float:left;
+		width:auto;
+		margin-right:10px;	
+	}
+.comment-reply-link
+	{
+		background:#930;	
+		color:#fff;
+		padding:3px;
+		border:#ccc 1px solid;	
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+	}
+.comment-reply-link a:hover
+	{
+		background:#fff;	
+		color:#930;
+	}	
+#respond {
+			
+			padding:10px;
+			background:#f5f5f5;
+			border:1px solid #CCC;
+}	
+#respond input[type=text], textarea {
+		width:100%;
+		background:#fff;
+		color:#930;
+		border: 1px solid #930;	
+		padding:5px;
+		height:auto;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+	}
+#respond input[type=text]:focus, textarea:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+#author {
+	font-size:: 16px;
+	color:#1d1d1d;
+	
+}
+#url {
+		color: #21759b;
+		
+	}
+#submit {
+		background:#930;
+		color:#fff;
+		border: 1px solid #693;	
+		padding:5px;
+		border-radius: 5px 5px 5px 5px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+}
+#submit:hover {
+	background:#093;
+		color:#fff;
+		border: 1px solid #930;	
+}
